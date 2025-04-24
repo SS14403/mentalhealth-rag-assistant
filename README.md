@@ -49,5 +49,5 @@ This tool provides informational content only and is not a substitute for profes
 
 License 🪪<br>
 Feel free to use this code as open source, however don't forget to star the repo <3 
-
+THIS REPO IS CRAZY
 
