@@ -44,6 +44,25 @@ mentalhealth-rag-assistant/
 └── README.md
 ```
 
+
+## 🛠 Troubleshooting
+
+Common issues and solutions:
+
+| Issue | Solution |
+|-------|----------|
+| **Gemini API errors** | Verify your API key at [Google AI Studio](https://aistudio.google.com/) and ensure you're using the correct model name (`gemini-pro` or `gemini-1.5-pro-latest`) |
+| **PDF extraction fails** | Replace `PyPDF2` with `pdfplumber`:<br>`pip uninstall PyPDF2`<br>`pip install pdfplumber` |
+| **Memory issues** | Reduce `CHUNK_SIZE` in `config.py` (try 200-300 words) and restart the application |
+| **FAISS loading errors** | Rebuild the vector store:<br>`rm dsm5_faiss.index`<br>Then rerun `main.py` |
+| **No responses from Gemini** | Check the prompt length (max 30K tokens for `gemini-pro`). Split long contexts into smaller chunks |
+| **Missing dependencies** | Ensure all packages are installed:<br>`pip install -r requirements.txt` |
+
+
+
+💡 **Pro Tip**: Always check the error logs for detailed messages. Common fixes are often highlighted there.
+
+
 Disclaimer ⚠️<br>
 This tool provides informational content only and is not a substitute for professional medical advice.
 
