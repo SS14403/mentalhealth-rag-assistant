@@ -1,7 +1,5 @@
 # MentalHealth-RAG-Assistant 🧠🤖
 
-![RAG Pipeline](https://miro.medium.com/v2/resize:fit:1400/1*5ZLci3SuR0zM_QlZOADv8Q.png)
-
 A Retrieval-Augmented Generation (RAG) chatbot powered by Google Gemini, providing DSM-5 based mental health information with source-grounded responses.
 
 ## Features ✨
@@ -19,3 +17,37 @@ A Retrieval-Augmented Generation (RAG) chatbot powered by Google Gemini, providi
 git clone https://github.com/yourusername/mentalhealth-rag-assistant.git
 cd mentalhealth-rag-assistant
 pip install -r requirements.txt
+```
+Usage 🚀
+Add your DSM-5 PDF to the /data folder
+
+Create a .env file and add the following:
+```bash
+GEMINI_API_KEY="your_api_key"
+PDF_PATH="data/dsm5.pdf"
+```
+
+Example Queries 💡
+
+```python
+"What are the diagnostic criteria for PTSD?"
+"Explain the difference between bipolar I and II"
+"List autism spectrum disorder symptoms in adults"
+```
+
+Project Structure 📂
+```bash
+mentalhealth-rag-assistant/
+├── data/               # PDF storage
+├── main.py             # Main pipeline
+├── requirements.txt    # Dependencies
+└── README.md
+```
+
+Disclaimer ⚠️<br>
+This tool provides informational content only and is not a substitute for professional medical advice.
+
+License 🪪<br>
+Feel free to use this code as open source, however don't forget to star the repo <3 
+
+
