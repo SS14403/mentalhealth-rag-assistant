@@ -48,5 +48,5 @@ Disclaimer ⚠️<br>
 This tool provides informational content only and is not a substitute for professional medical advice.
 
 License 🪪<br>
-Feel free to use this code as open source, however don't forget to star the repo <3 
+Feel free to use this code as open source, however don't forget to star the repo
 
