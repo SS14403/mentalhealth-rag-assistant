@@ -14,7 +14,7 @@ A Retrieval-Augmented Generation (RAG) chatbot powered by Google Gemini, providi
 ## Installation ⚙️
 
 ```bash
-git clone https://github.com/yourusername/mentalhealth-rag-assistant.git
+git clone https://github.com/SS14403/mentalhealth-rag-assistant.git
 cd mentalhealth-rag-assistant
 pip install -r requirements.txt
 ```
