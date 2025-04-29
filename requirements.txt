@@ -10,7 +10,6 @@ python-dotenv>=1.0.0
 pdfplumber>=0.9.0  # Alternative to PyPDF2
 
 # Text Processing
-re>=2.2.1  # Built-in but specified for clarity
 nltk>=3.8.1  # For advanced text processing if needed
 
 # Development Tools
